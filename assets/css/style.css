@@ -71,3 +71,39 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container h1 {
+    font-size: 24px;
+  }
+
+  .container button {
+    font-size: 18px;
+  }
+
+  .display img {
+    width: 18px;
+  }
+
+  .container button img {
+    width: 18px;
+  }
+
+  .display input {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .display {
+    padding: 26px 10px;
+  }
+}
